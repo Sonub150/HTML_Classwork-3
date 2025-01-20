@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+    <legend for=""> Personal Details</legend>
+    <label for="">Firstname:</label>
+    <input type="text">
+    <br><br>
+    <label for="">Middlename:</label>
+    <input type="text">
+    <br><br>
+    <label for="">Lastname:</label>
+    <input type="text">
+    <br><br>
+   <label for="select">Course</label>
+    <select name="Course" id="Course">
+        <option value="">Course</option>
+        <option>BBA</option>
+        <option>BCA</option>
+        <option>B.TECH</option>
+        <option>M.TECH</option>
+        <option>BMS</option>
+    </select>
+    <br><br>
+    <label for="Gender">Gender:</label>
+    <br>
+    <input type="radio" name="gender" id="gender">Male
+      <br>
+      <input type="radio" name="gender" id="gender">Female
+      <br>
+      <input type="radio" name="gender" id="gender">Other
+      <br>
+      <br>
+      <label for="DOB">DOB</label>
+      <input type="datetime-local" name="DOB" id="DOB">
+      <br><br>
+      <label for="Phone">Phone</label>
+      <input type="text" value="+91" size="2" disabled/>
+      <input type="tel" id="Phone" name="Phone" style="width: 120px;">
+      <br><br>
+      <label for="Address">Address</label>
+      <br>
+      <textarea name="Address" id="Address" cols="80" rows="5"></textarea>
+      <br><br>
+      <label for="Email">Email</label>
+      <input type="email" id="Email" name="Email">
+      <br><br>
+      <label for="Password">Password</label>
+      <input type="password" id="Password" name="Password">
+      <br><br>
+      <label for="Re-Password">Re-Password</label>
+      <input type="password" id="Re-Password" name="Re-Password">
+      <br><br>
+    <input type="checkbox">
+    <label for="Terms">I agree to the terms and conditions</label>
+    <br><br>
+    <label for="Choose File">Choose File</label>
+    <input type="file" name="Choose File" id="Choose File">
+    <br><br>
+    <label for="Choose Color">Choose Color</label>
+    <input type="color" name="Choose Color" id="Choose Color">
+    <br><br>
+    <!-- <input type="submit" value="Submit">
+    <input type="reset" value="Reset"> -->
+    <button type="reset" >Reset</button>
+    <button type="submit">Submit</button>  
+</fieldset>
+</form>
+</body>
+</html>
